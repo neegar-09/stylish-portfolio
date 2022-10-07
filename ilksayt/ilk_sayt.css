@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#sec1{
+	width: 100%;
+	background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+	height: 100vh;
+	background-size: cover;
+}	
+.sec1{
+	width: 100%;
+}
+.ortalama{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.sec1_cem{
+	width: 100%;
+	padding-top: 209px;
+	text-align: center;
+}
+.stylish{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.stylish h1{
+	font-size: 85px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: #212529
+
+}
+.bootstrap{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 64px;
+}
+.bootstrap p{
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #212529
+}
+.find{
+	width: 100%;
+}
+.find a{
+	background-color: #1d809f;
+    color: white;
+    font-size: 16px;
+    padding: 28px 40px;
+    border-radius: 5px;
+}
+.find a:hover{
+	background-color: #1d3f9f;
+}
+#sec2{
+	width: 100%;
+}
+.sec2{
+	width: 100%;
+}
+.sec2_cem{
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+}
+.portfolio{
+	width: 100%;
+	padding: 15px 0;
+}
+.portfolio h1{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: #212529
+}
+.this{
+	width: 100%;
+	padding-bottom: 45px;
+
+}
+.this p{
+	font-size: 17px;
+	font-weight: 300;
+	color: black;
+	
+}
+.this p a{
+	text-decoration: underline;
+}
+.what{
+	width: 100%;
+}
+.what a{
+	background-color: #212529;
+    color: white;
+    font-size: 14px;
+    padding: 28px 40px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.what a:hover{
+	background-color: black;
+}
+#sec3{
+	width: 100%;
+	background-color: #1d809f;
+}
+.sec3{
+	width: 100%;
+}
+.sec3_cem{
+	width: 100%;
+	padding: 120px 0;
+}
+.services{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.services p{
+	color: #ecb807;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+.what2{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.what2 h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+	color: white;
+}
+.qutular{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.qutu{
+	width: 21%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.yumru{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.icon{
+	position: relative;
+}
+.icon i{
+	position: absolute;
+	left: 40px;
+	top: 37px;
+	font-size: 25px;
+	color: #1d809f;
+}
+.responsive{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.responsive p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	color: white;
+
+}
+.looks{
+	width: 100%;
+	text-align: center;
+}
+.looks p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: white;
+	font-size: 15px;
+}
+#sec4{
+	width: 100%;
+	background-image:url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.sec4{
+	width: 100%;
+}
+.sec4_cem{
+	width: 100%;
+}
+.welcome{
+	width: 47%;
+	margin-left: 272px;
+	text-align: center;
+	margin-bottom: 63px;
+}
+.welcome h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 53px;
+}
+.download{
+	width: 100%;
+	text-align: center;
+}
+.download a{
+	background-color: #1d809f;
+    color: white;
+    font-size: 16px;
+    padding: 22px 32px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.download a:hover{
+	background-color: #1d3f9f;
+}
+#sec5{
+	width: 100%;
+}
+.sec5{
+	width: 100%;
+	height: 900px;
+}
+.sec5_cem{
+	width: 100%;
+	padding: 97px 0;
+}
+.portfolio{
+	width: 100%;
+	text-align: center;
+	
+}
+.portfolio p{
+	font-size: 16px;
+	color: #ecb807;
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 600;
+}
+.recent{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.recent p{
+	font-size: 3rem;
+	color: #212529;
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 500;
+}
+.sekiller{
+	width: 100%;
+	display: flex;	
+	flex-direction: column;
+	position: absolute;
+}
+.main{
+	position: relative;
+}
+.bir{
+	display: flex;
+	width: 100%;
+}
+.div1{
+	background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+}
+.div2{
+	background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg");
+}
+.iki{
+	display: flex;
+	width: 100%;
+}
+.div3{
+	background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg");
+}
+.div4{
+	background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg");
+
+}
+.passiv .item{
+	opacity: 0;
+}
+.passiv .item:hover{
+	opacity: 1;
+	border: 20px solid white;
+	box-sizing: border-box;
+	transition:0.5s;
+}
+.item{
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+	background-color: rgba(0,169,248,0.7);
+}
+.sekil_yazi{
+	margin-top: 200px;
+    margin-left: 20px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+.sekil_yazi h2{
+	font-size: 15px;
+}
+#sec6{
+	width: 100%;
+	background-color: #1d809f;
+}
+.sec6{
+	width: 100%;
+}
+.sec6_cem{
+	width: 100%;
+	padding: 100px 0;
+}
+.button{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.button h1{
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: whitesmoke;
+
+}
+.buttons{
+	width: 37%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+.button1 a{
+	background-color: white;
+    color: black;
+    padding: 25px 48px;
+    border-radius: 7px;
+
+}
+.button2 a{
+	background-color: black;
+    color: white;
+    padding: 25px 48px;
+    border-radius: 7px;
+}
+#sec7{
+	width: 100%;
+}
+.sec7{
+	width: 100%;
+}
+.iframe{
+	width: 100%;
+}
+
+.iframe iframe{
+	height: 70vh;
+	width: 99%;
+}
+footer{
+	width: 100%;
+}
+.foot_cem{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 85px 0;
+
+}
+.icons{
+	width: 25%;
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+}
+.foot_daire{
+	width: 60px;
+	height: 60px;
+	background-color: #1d809f;
+	border-radius: 50%;
+}
+.foot_daire:hover{
+	background-color: #1d3f9f;
+}
+.foot_daire i{
+	font-size: 20px;
+	color: white;
+	margin-left: 23px;
+    margin-top: 19px;
+}
+.foot_yazi p{
+	color: grey;
+	font-size: 15px;
+}
